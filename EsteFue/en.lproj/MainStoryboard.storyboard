@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="w2e-qg-8tR">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--Tecnología de Dispositivos Móviles-->
+        <scene sceneID="veZ-YL-lLU">
+            <objects>
+                <viewController title="Tecnología de Dispositivos Móviles" id="w2e-qg-8tR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7OK-Kn-2Ia">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Default-Portrait.png" id="1hC-Cp-KMk">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="77Z-9G-a8a">
+                                <rect key="frame" x="514" y="438" width="188" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <color key="tintColor" red="0.0039215688589999999" green="0.0" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+                                <state key="normal" title="Elegir plataforma">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="kzC-C5-QMq" kind="modal" identifier="Plataforma" modalTransitionStyle="crossDissolve" id="euV-Gc-SFL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RdL-oT-uDF">
+                                <rect key="frame" x="450" y="272" width="188" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <color key="tintColor" red="0.45263791799999997" green="1" blue="0.4503006081" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Red Celular">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NcQ-pu-sdo" kind="modal" identifier="Red" modalTransitionStyle="crossDissolve" id="mxn-ES-4sC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BlZ-rY-XrK">
+                                <rect key="frame" x="450" y="605" width="188" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <color key="tintColor" red="1" green="0.13322937156705095" blue="0.62895120563007323" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Modulación">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Oou-4t-er1" kind="modal" identifier="Modulacion" modalTransitionStyle="crossDissolve" id="RgX-Pn-aLE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3ui-tm-q3p">
+                                <rect key="frame" x="52" y="443" width="188" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <color key="tintColor" red="1" green="0.022661207307067333" blue="0.033512925216248046" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="IDEs">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="JG0-tw-FNx" kind="modal" identifier="IDEs" modalTransitionStyle="crossDissolve" id="mEw-X8-KKp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KEQ-8q-dvu">
+                                <rect key="frame" x="117" y="605" width="188" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <color key="tintColor" red="0.71222917101760252" green="0.31581848984134553" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Glosario">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0F1-LD-hxc" kind="modal" identifier="Glosario" modalTransitionStyle="crossDissolve" id="Xdh-d4-bMh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pLd-7E-y0X">
+                                <rect key="frame" x="290" y="212" width="188" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <color key="tintColor" red="0.98708218336105347" green="0.36009073839080352" blue="0.12113028072810106" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Dispositivos móviles">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hO7-Y5-Auf" kind="modal" identifier="Dispositivos" modalTransitionStyle="crossDissolve" id="gC0-hB-Ufj"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackTranslucent" id="N2N-PF-h2v">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Tecnología de dispositivos móviles" id="gF1-5i-EiM"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ycj-c8-l1O">
+                                <rect key="frame" x="117" y="272" width="188" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <color key="tintColor" red="0.022661207307067333" green="0.98914828209081929" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Sistemas operativos">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tue-zi-tpH" kind="modal" identifier="Sistemas" modalTransitionStyle="crossDissolve" id="Ksm-rY-1bM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lCz-K9-f2a">
+                                <rect key="frame" x="290" y="676" width="188" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <color key="tintColor" red="0.97837150445095844" green="1" blue="0.028691561529177179" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Evaluación">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="UEb-CI-AZZ" kind="modal" identifier="Evaluacion" modalTransitionStyle="crossDissolve" id="tPc-H1-al6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qwP-pj-6aB">
+                                <rect key="frame" x="519" y="773" width="230" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="SENA" image="logo+.png">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="titleShadowColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="4Rs-3I-aZq" kind="modal" identifier="Informacion" modalTransitionStyle="crossDissolve" id="sU4-I9-cPY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Agk-uz-mrx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2094" y="-247"/>
+        </scene>
+        <!--Dispositivos móviles-->
+        <scene sceneID="Nue-qb-KYm">
+            <objects>
+                <viewController title="Dispositivos móviles" id="hO7-Y5-Auf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bh5-4f-2gl">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="li2-xb-4hj">
+                                <rect key="frame" x="33" y="350" width="676" height="638"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">
+3.	DISPOSITIVOS MÓVILES
+
+(incluir de cada uno, tamaño de pantalla, tamaño del dispositivo, tamaño de la interfaz de usuario (tipos de teclado), interfaces con otros dispositivos, capacidad de almacenamiento
+
+
+3.1.	TELÉFONOS
+
+El dispositivo móvil básico que permite comunicación de voz sobre la red celular.  A partir de éste evolucionaron los demás que básicamente añaden hardware y funcionalidades.
+
+ 
+SISTEMAS CONSTITUTIVOS
+
+SISTEMA DE RF (Radio Frecuencia):  Uno o varios subsistemas que permiten la transmisión y recepción de señales de radio frecuencia, desde la comunicación con la red celular, la transmisión de datos, sintonía de emisoras de radio, comunicación con dispositivos cercanos (bluetooth, IrDA) 
+
+SISTEMA DE AUDIO:  Recibe la voz del usuario y emite los sonidos del teléfono para permitir la comunicación.
+
+SISTEMA DE POTENCIA:  Permite la carga de la batería y el uso de la energía almacenada en ésta para el funcionamiento del teléfono.
+
+SISTEMA DE PROCESAMIENTO:  Incluye el procesador, la memoria y los circuitos integrados de manejan la traducción de señales análogas y digitales.  El sistema operativo se almacena en la memoria del teléfono.
+
+SISTEMA DE IDENTIFICACIÓN:  Actualmente está función es realizada por la SIM (Subscriber Identity Module) que contiene los datos del suscriptor y en algunos casos permite almacenar otros contenidos como los contactos.  En sus orígenes esta función estaba inmersa en el teléfono.
+
+SISTEMA DE ENTRADA Y SALIDA:  Permite el ingreso de datos por teclado y el despliegue de respuestas por pantalla.
+
+3.2.	PDA
+
+Siglas en inglés de Personal Digital Assistant, Dispositivo orientado a realizar tareas de oficina y contener software aplicativo tipo agenda, procesador de texto.  En sus orígenes no contaba con la posibilidad de transmisión de datos y se usaba más como un dispositivo que sincronizaba con el PC la información para hacerla portátil.  Su tamaño es mayor al de un teléfono celular y su pantalla amplia permite escribir con un lápiz especial denominado Stylus.  También denominado agenda electrónica.
+
+3.3.	SMARTPHONES
+
+Denominados teléfonos inteligentes por la posibilidad de integrar aplicaciones variadas además de la función telefónica misma.  Se distinguen por tener tamaños de pantalla mayores y con mejor resolución, para facilitar la lectura en pantalla.  Adicionados con teclados alfanuméricos similares a los de los computadores pero de tamaño reducido, también pueden presentarse teclados virtuales en los dispositivos táctiles y algunos incorporan un Stylus para escritura manuscrita o dibujo.
+
+Se diferencian adicionalmente por su mayor capacidad de memoria y procesameinto.
+
+3.4.	TABLETS
+
+La unión entre el teléfono celular y la PDA, permite hacer muchas de las operaciones de un portátil pero con integración a la red de datos celular o a WiFi.  Poseen pantallas táctiles como elementos de entrada y salida.
+
+Su poder de computación se acerca cada vez más a la de un portátil, pero en un tamaño mucho más conveniente para ser transportado por los usuarios.  Algunas son de propósito exclusivo como lectoras de libros, otras son de propósito general para instalación de aplicaciones genéricas.
+
+3.5.	TERMINALES MÓVILES 
+
+Son dispositivos diseñados para realizar tareas específicas, tales como procesos de toma de medidas, recolección de datos de inventario en campo y muchas más.  Se las diseña con interfaces de entrada y salida tales como escáneres y lectores de código de barras, impresoras térmicas; las cuales son necesarias para realizar tareas propias de ambientes industriales, automatización de fuerza de ventas, entre otros.  Poseen igualmente conexión de datos para sincronizar el dispositivo y descargar la información recolectada.
+
+3.6.	PARA SABER MÁS
+
+Wikipedia, Mobile phone http://en.wikipedia.org/wiki/Mobile_phone consultado 2012-01-22
+
+How Stuff Works, How Cell Phones Work http://electronics.howstuffworks.com/cell-phone.htm/printable consultado 2012-01-22
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <imageView autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="top" image="mobile-devices.png" id="egW-nF-PJQ">
+                                <rect key="frame" x="110" y="58" width="501" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" barStyle="black" id="BTX-nS-Vjz">
+                                <rect key="frame" x="0.0" y="-6" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Dispositivos móviles" id="K1H-lt-Pbb">
+                                        <barButtonItem key="rightBarButtonItem" title="Menú" id="VhB-eC-vwl">
+                                            <connections>
+                                                <segue destination="hO7-Y5-Auf" kind="custom" customClass="DismissSegue" id="M1i-A6-C8b"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1zA-gu-FCn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2071" y="-2348"/>
+        </scene>
+        <!--Elección de plataforma-->
+        <scene sceneID="lL8-we-gxC">
+            <objects>
+                <viewController title="Elección de plataforma" id="kzC-C5-QMq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1bS-sI-pCJ">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="GsP-0m-hhr">
+                                <rect key="frame" x="33" y="350" width="676" height="638"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">
+6.	PROCESO DE ELECCIÓN DE PLATAFORMA
+
+6.1.	LA NECESIDAD DEL CLIENTE
+
+Antes de iniciar el proceso de desarrollo de cualquier aplicación, es necesario conocer detalladamente lo que el cliente realmente desea, esto implica un proceso formal de levantamiento de requerimientos.  Esta fase igualmente permitirá aclarar las expectativas del cliente con respecto a lo que es posible hacer con una aplicación en un dispositivo móvil y si se trata de la adaptación de una aplicación existente a este nuevo entorno, permitirle que conozca las ventajas y restricciones que esto conlleva.
+
+Debe definirse qué contenido tendrá la aplicación dentro y fuera de línea, de modo que se definan las estrategias de acceso a fuentes externas de información si esto fuera necesario.
+
+Debe esbozarse un acercamiento a la necesidad del cliente en cuanto a cantidad de información desplegada en pantalla, pues esta es realmente una de las mayores restricciones comparado con un diseño convencional para PC.
+
+6.2.	LA CAPACIDAD DEL HARDWARE
+
+El hardware de un dispositivo móvil esta definido por parámetros similares a los de un PC, cantidad de almacenamiento que es equivalente a memoria, procesador, frameworks que soporta (Java y .Net por ejemplo) y tamaño de la pantalla o screen.  Éste último parámetro es de gran relevancia cuando se codifican aplicaciones de presentación gráfica, cuya visualización estará sometida al tamaño de la pantalla.
+
+Una vez conocida la necesidad del cliente es necesario elegir el sistema operativo apropiado para la aplicación, esta selección dependerá de factores como:
+-	Público al cual va dirigida la aplicación, de modo que se conozca si va orientada a dispositivos de gama alta o gama baja.
+-	Preferencias de plataforma del cliente, es posible que la aplicación sea para uso interno, de modo que deba integrarse con otras plataformas de software ya existentes.
+-	Popularidad del sistema operativo, en caso de que no sea posible desarrollar para más de un entorno, se recomienda optar por el sistema operativo más usado entre los clientes potenciales de la aplicación.
+-	Uso de entornos de desarrollo multiplataforma, en caso de que la aplicación sea para consumo masivo, se buscará el lenguaje de programación que permita ser corrido en la mayor cantidad de sistemas operativos posibles.
+
+Una vez definido la plataforma de Sistema operativo, también debe especificarse el tipo de dispositivo (marca y modelo) principal sobre el cual desea desarrollarse y es muy recomendable contar con un dispositivo físico para pruebas.  Cuando esto no sea posible será necesario contar con un simulador del dispositivo tan parecido como sea posible en cuanto a funcionalidades de pantalla y versión del software sobre el cual correrá la aplicación en el teléfono.  Se recomienda en todo caso haber probado primero la aplicación en un dispositivo físico antes de lanzarla a producción.
+
+6.3.	LA PORTABILIDAD
+
+Uno de los grandes desafíos para el desarrollo de aplicaciones móviles es la gran fragmentación de dispositivos disponibles, debido a la diversidad de fabricantes, sistemas operativos, dimensiones de pantalla.
+
+Es menos común tener aplicaciones que podríamos llamar de consumo masivo, como estamos acostumbrados en los ambientes de PC, en este caso el desarrollador deberá acordar con el cliente cuáles son sus dispositivos objetivo y hacerle conocer que si desea cubrir varios fabricantes, el desarrollo deberá realizarse más de una vez.
+
+Existen herramientas que permiten migrar el código de un sistema operativo a otro, entre los principales de ellos, sin embargo siempre debe probarse en el dispositivo objetivo como es el resultado final de la ejecución del código, por tanto hay funcionalidades no compartidas entre los diferentes sistemas operativos.
+
+6.4.	PARA SABER MÁS
+
+Gómez, Omar. Revelando la realidad de la fragmentación del mundo Android, 2012 http://blog.pixagora.com/2012/01/revelando-la-realidad-de-la-fragmentacion-en-el-mundo-android/ consultado el 2012-01-12
+
+AT &amp; T, Mobile Application Development Best Practices, 2007. http://developer.att.com/home/develop/referencesandtutorials/whitepapers/Best_Practices_Mobile_Application_Development.pdf consultado el 2012-01-12
+
+W3C, Mobile Web Application Best Practices, 2010.  http://www.w3.org/TR/mwabp/ consultado el 2012-01-12
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <imageView autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="top" image="infografia-screen.png" id="g7D-5E-SKk">
+                                <rect key="frame" x="110" y="58" width="501" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" barStyle="black" id="C0L-TE-AVB">
+                                <rect key="frame" x="0.0" y="-6" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Elección de plataforma" id="iAc-Jp-Cya">
+                                        <barButtonItem key="rightBarButtonItem" title="Menú" id="A0m-4p-tOT">
+                                            <connections>
+                                                <segue destination="kzC-C5-QMq" kind="custom" customClass="DismissSegue" id="fnz-Cw-Swc"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bsr-vZ-2OB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-815" y="-1939"/>
+        </scene>
+        <!--Red Celular-->
+        <scene sceneID="RBT-wi-HFF">
+            <objects>
+                <viewController title="Red Celular" id="NcQ-pu-sdo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rpk-m7-ewL">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="YbR-cZ-UfL">
+                                <rect key="frame" x="33" y="350" width="676" height="638"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">
+1.1.	FUNCIONAMIENTO DE LA RED
+
+La telefonía celular toma su nombre del modo como se distribuyen los equipos de transmisión para cubrir una determinada zona, ubicados en una geometría similar a las celdas de un panal
+
+En su forma más básica la infraestructura está compuesta por:
+
+Dispositivos móviles:  Terminales telefónicas o de datos que se conectan al sistema celular.
+
+Torre de transmisión:  Elementos pasivos usados para recibir o enviar señales a los dispositivos móviles.  Incluye además del elemento metálico que constituye la antena o un arreglo de antenas.
+
+Estación base celular o BTS:  Ubicada junto a la antena alberga los sistemas que realizan el control de la llamada celular, realizando el proceso de Handoff – Handover, también incluye las etapas de amplificación de señal y modulado de la misma y los elementos de protección eléctrica para operación autónoma cuando no hay suministro de energía.
+
+Central Telefónica Celular (MSC o MSTO):  Recibe las transmisiones de un grupo de BTS y realiza el enrutamiento de llamadas entre dispositivos móviles de la misma zona y operador.
+
+Central telefónica tándem:  Recibe las transmisiones de varias centrales telefónicas celulares o convencionales.  Permite realizar el enrutamiento de llamadas entre dispositivos móviles de diferentes zonas, operadores y conectarlos con la Red Telefónica Pública Conmutada PSTN.
+
+Cabecera de Internet:  Permite la comunicación de la red celular con la red Internet, para dar servicio a las comunicaciones de datos.
+
+1.2.	PARA SABER MÁS
+
+Katz, Randy H., CS 294-7: Cellular Telephony. Berkeley, 1996 http://www.sss-mag.com/pdf/1cellular.pdf Consultado 2012-01-12
+
+Cellular Network, http://en.wikipedia.org/wiki/Cellular_network Consultado 2012-01-12
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <imageView autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="top" image="cellularnw.png" id="Ut4-u2-5q9">
+                                <rect key="frame" x="110" y="58" width="501" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" barStyle="black" id="nrt-Bh-JWX">
+                                <rect key="frame" x="0.0" y="-6" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Red Celular" id="e6v-5P-DXL">
+                                        <barButtonItem key="rightBarButtonItem" title="Menú" id="Me5-PO-f0a">
+                                            <connections>
+                                                <segue destination="NcQ-pu-sdo" kind="custom" customClass="DismissSegue" id="eSh-9D-EWn"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rwq-c6-jbS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-791" y="-571"/>
+        </scene>
+        <!--Modulación-->
+        <scene sceneID="uhL-rj-y7Y">
+            <objects>
+                <viewController title="Modulación" id="Oou-4t-er1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U6e-aV-5HO">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="Nga-gu-HeO">
+                                <rect key="frame" x="33" y="350" width="676" height="638"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">
+2.	MODULACIÓN
+
+2.1.	TECNOLOGÍAS DE MODULACIÓN
+
+Las señales de datos se generan naturalmente en lo que se conoce como banda base, es decir el rango de frecuencia y potencia en el cual se produce la información, ya sea voz, datos o video.  La banda base tiene por característica general poseer baja frecuencia, lo cual la hace poco apta para ser transmitida, pues el tamaño de las antenas necesarias son inversamente proporcionales a la frecuencia.  Así nace la necesidad de modificar estas señales de información para ser transportadas en frecuencias más altas, a este proceso se le conoce como modulación.
+
+La modulación transmite la información proveniente de la banda base por medio de una señal de características conocidas denominada portadora.  La modificación de la portadora por la señal variable de información es el proceso realizado por la modulación, en el receptor se realiza el proceso inverso de recuperar la información a partir de la señal modulada, a ese proceso se le conoce como demodulación.
+
+2.2.	TECNOLOGÍAS ANÁLOGAS
+
+Se refiere a la alteración de la señal portadora alterando las variables físicas propias de esta, tales como frecuencia, amplitud y fase.  Este tipo de modulación es comúnmente usada en la transmisión de señales convencionales de radio y televisión.
+
+2.3.	TECNOLOGÍAS DIGITALES
+
+Consiste en la transmisión de señales digitales por medio de señales moduladas, para esto se usa modulación que crea constelaciones definidas por la fase y amplitud de la señal, de modo que en un instante de tiempo puedan transmitirse tantos datos como combinaciones permita el esquema de modulación.
+
+2.4.	TECNOLOGÍAS PARA TRANSMISIÓN DE DATOS
+
+La transmisión celular requiere que varias fuentes de información transmitan simultáneamente datos usando los mismos recursos de banda, y transmisión, para esto se introduce el concepto de multiplexión, donde el sistema permite de forma escalonada el acceso a los recursos.  En telefonía celular se han usado los siguientes esquemas de multiplexión
+
+FDMA:  Frequency Division Multiple Access (Acceso múltiple por división de Frecuencias) consiste en asignar una frecuencia a cada llamada durante todo el tiempo que ésta exista, es poco eficiente debido a que la frecuencia continúa asignada sin importar si hay o no datos para transmitir.
+
+TDMA:  Time Division Multiple Access (Acceso múltiple por división de Tiempo) consiste en asignar un lapso de tiempo periódicamente a cada llamada durante todo el tiempo que ésta exista, mejora la eficiencia al permitir el uso de la misma frecuencia por varias llamadas.
+
+CDMA:  Code Division Multiple Access (Acceso múltiple por división de código) consiste en asignar un lapso de tiempo de forma aleatoria a cada llamada durante todo el tiempo que ésta exista, mejora la seguridad pues no es posible predecir cual será el próximo canal que la llamada usará por quien no participa en la transmisión.  Es parte de las técnicas de espectro expandido, que tienen buena inmunidad al ruido por usar muchas portadoras pequeñas en lugar de una portadora única de alta potencia.
+
+
+2.5.	PARA SABER MÁS
+
+National Instruments, Quadrature Amplitude Modulation (QAM), http://zone.ni.com/devzone/cda/tut/p/id/3896 Consultado 2012-01-12
+
+National Instruments, Understanding Spread Spectrum for Communications http://zone.ni.com/devzone/cda/tut/p/id/4450 Consultado 2012-01-12
+
+UMTS World, CDMA Overview, http://www.umtsworld.com/technology/cdmabasics.htm Consultado 2012-01-12
+
+Bryson, Kyle y otros, FDMA vs TDMA vs CDMA: What's the difference?, 2001. http://www.clear.rice.edu/elec301/Projects01/cdma/compare.html Consultado 2012-01-12
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <imageView autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="top" image="freqs.jpg" id="3vz-fC-Ptx">
+                                <rect key="frame" x="110" y="58" width="501" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" barStyle="black" id="nu3-3m-m0G">
+                                <rect key="frame" x="0.0" y="-6" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Modulación" id="WXr-73-l17">
+                                        <barButtonItem key="rightBarButtonItem" title="Menú" id="CDV-mU-DVw">
+                                            <connections>
+                                                <segue destination="Oou-4t-er1" kind="custom" customClass="DismissSegue" id="Jmt-Ne-3CL"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uwd-PG-t2E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-855" y="797"/>
+        </scene>
+        <!--Evaluación-->
+        <scene sceneID="lbe-P9-KnC">
+            <objects>
+                <viewController title="Evaluación" id="UEb-CI-AZZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AWM-jC-KTr">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="xRi-QN-oYo">
+                                <rect key="frame" x="33" y="350" width="676" height="638"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">7.	EVALUACIÓN
+
+PREGUNTAS
+1.	Describa la información que es necesario conocer antes de comenzar el desarrollo de una aplicación para dispositivos móviles.
+
+2.	¿Cómo puede el hardware o el software limitar la distribución de una aplicación?
+
+3.	Liste los sistemas constitutivos de la red celular
+
+4.	Liste los sistemas constitutivos de un teléfono celular
+
+5.	Explique por qué es más segura la modulación CDMA.
+
+6.	Según la información que conoce sobre los sistema operativos de dispositivos móviles, ¿Qué consideraciones deben tenerse al momento de elegir la plataforma para la aplicación?
+
+7.	¿Cómo se define el IDE adecuado para una aplicación propuesta?
+
+8.	¿Qué dispositivo móvil recomendaría para una aplicación de automatización de toma de inventario en una bodega?
+
+9.	¿Qué consideraciones deben tenerse en cuenta al desarrollar una página web para ser vista por dispositivos móviles?
+
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <imageView autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="top" image="stockvault-note-paper128635.png" id="p8l-q4-0O3">
+                                <rect key="frame" x="110" y="58" width="501" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" barStyle="black" id="tiE-VO-ATw">
+                                <rect key="frame" x="0.0" y="-6" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Evaluación" id="Jcz-H7-AJv">
+                                        <barButtonItem key="leftBarButtonItem" title="Respuestas" id="yRY-cZ-dv2">
+                                            <connections>
+                                                <segue destination="N1v-Kg-ye0" kind="modal" identifier="Respuestas" modalTransitionStyle="crossDissolve" id="DbD-rQ-dSB"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Menú" id="DaC-Fr-85d">
+                                            <connections>
+                                                <segue destination="UEb-CI-AZZ" kind="custom" customClass="DismissSegue" id="rcq-jh-UXf"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pEb-6C-Qx4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1815" y="1333"/>
+        </scene>
+        <!--IDEs-->
+        <scene sceneID="L7d-6s-9ka">
+            <objects>
+                <viewController title="IDEs" id="JG0-tw-FNx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WOf-tF-9eT">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" id="NE2-NN-0fY">
+                                <rect key="frame" x="33" y="350" width="676" height="638"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">
+5.	IDEs
+
+Siglas en inglés de Integrated Development Environment o Entorno de Desarrollo integrado.  Comprende las herramientas necesarias para la generación de código en un lenguaje de programación y el entorno de prueba para la depuración y simulación de los dispositivos móviles reales.
+
+5.1.	JAVA ME SDK
+
+Entorno de desarrollo producido directamente por Oracle, quien es la empresa que actualmente posee los derechos sobre el lenguaje Java.  Permite simular en entornos prototipo.  Usa como referencia de desarrollo el CLDL (Connected Limited Device Configuration) que es un estándar definido por acuerdo de los desarrolladores de Java para especificar las características tipo del dispositivo móvil promedio.  Esta referencia es útil cuando se desarrolla para equipos de gama baja que tienen funcionalidades básicas, de modo que se pueda de cierto modo garantizar la portabilidad entre fabricantes y modelos diversos.
+
+5.2.	XCODE
+
+Entorno de desarrollo propietario de Apple, permite desarrollar sobre su propio simulador o conectarse a un dispositivo real (iPad o iPhone), ésta última opción solo para desarrolladores registrados en el programa pago.
+
+Requiere que el sistema operativo de la máquina de desarrollo sea OSX, por lo cual no corre en entornos Windows o Linux.
+
+5.3.	VISUAL STUDIO
+
+Entorno de desarrollo para tecnologías Microsoft, consta de módulos adicionales que permiten codificar específicamente para una versión específica de Windows Phone o Windows Mobile.  Permite programación nativa para acceso a bases de datos SQL Server, lo cual lo hace apropiado para entornos corporativos Microsoft.
+
+ 
+5.4.	ANDROID SDK
+
+Entorno de desarrollo propio de Google para sus diferentes versiones de Sistema operativo Android.  Requiere la instalación de librerías en línea, las cuales se actualizan con relativa frecuencia.  Permite determinar para cual versión de Android se está desarrollando y hacer el deploy en simuladores genéricos.
+
+5.5.	APLICACIONES WEB
+
+Nacen en el momento que los dispositivos móviles adquieren la capacidad de comunicarse usando un plan de datos y acceder a Internet.  Inicialmente debido a la incapacidad de los dispositivos para procesar el código html y la baja velocidad de las redes de datos en sus inicios, se crea el lenguaje WML (Wireless Markup Language), transportado por un protocolo propio denominado WAP (Wireless Application Protocol), de modo que las empresas interesadas en desplegar su información para este entorno debían poseer un servidor proxy con soporte para WAP, realizar la identificación del browser, para así redirigirlo a la versión para móviles.
+
+Cuando se desarrollan versiones de páginas web existentes para ser vistas en móviles, una restricción importante es el tamaño del screen, esto limita el tipo de imágenes que pueden usarse y el diseño en pantalla en general.
+
+Una evolución posterior de WML es la creación de XHTML MP que permite utilizar muchas de las etiquetas conocidas para de html para su uso en navegadores que lo soporten.
+
+Posteriormente y enfocado al mercado de los smartphones, se estandariza el uso de html 5 para permitir escribir el mismo de código que sea comprensible tanto para PCs y browsers de dispositivos móviles.   Esto posibilita que recursos como videos, animaciones y demás ya sean totalmente compatibles con los browsers de móviles modernos.
+
+5.6.	ENTORNOS DE DESARROLLO DE TERCEROS
+
+Otras casas fabricantes de software han desarrollado sus propios IDE para soportar diversos sistemas operativos o lenguajes, es relevante mencionar el Titanium mobile SDK, que permite con una única interfaz de código tipo javascript, generar aplicaciones para iOS, Android y aplicaciones móviles para web.
+
+Para el caso de Java y Android existen gran cantidad de entornos de desarrollo, la mayoría de ellos de uso libre, lo cual ha contribuido con la expansión del uso de estas herramientas.  Unos de los más populares son Netbeans y Eclipse, que permiten codificación en Java y se les pueden agregar plugins para plataformas específicas.  También toman preferencia los entornos de desarrollo gráficos, que simplifican la codificación por medio de la selección de bloques de código de objetos estándar, que se intercomunican de manera gráfica, el IDE genera internamente la codificación necesaria para soportar lo diseñado de forma gráfica.
+
+5.7.	PARA SABER MÁS
+
+Appacelerator, Titanium mobile SDK, 2011, http://www.appcelerator.com/products/titanium-mobile-application-development/, consultado el 2012-01-12
+
+Apple, xcode, 2011, https://developer.apple.com/devcenter/ios/index.action , consultado el 2012-01-12
+
+Developers Home, Mobile Internet Browsing http://www.developershome.com/ , consultado el 2012-01-12
+
+Oracle, Java ME and Java Card Technology http://www.oracle.com/technetwork/java/javame/index.html consultado el 2012-01-12
+
+Oracle, CLDC, http://www.oracle.com/technetwork/java/index-jsp-137745.html consultado el 2012-01-12
+
+Android, Developer Apps, http://www.android.com/developers/ consultado el 2012-01-12
+
+Microsoft, Windows Phone SDK Tools, http://msdn.microsoft.com/en-us/library/ff402523%28v=VS.92%29.aspx consultado el 2012-01-12
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <imageView autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="top" image="IDEs2.png" id="aVJ-Xp-qCp">
+                                <rect key="frame" x="110" y="58" width="501" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" barStyle="black" id="dLz-Z0-uKf">
+                                <rect key="frame" x="0.0" y="-6" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="IDEs" id="7jj-Mp-quS">
+                                        <barButtonItem key="rightBarButtonItem" title="Menú" id="82M-gu-tNt">
+                                            <connections>
+                                                <segue destination="JG0-tw-FNx" kind="custom" customClass="DismissSegue" id="Keb-ov-eRe"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sQY-t1-jt9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3319" y="-499"/>
+        </scene>
+        <!--Glosario-->
+        <scene sceneID="CBr-vm-tCZ">
+            <objects>
+                <viewController title="Glosario" id="0F1-LD-hxc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nrm-xE-oeg">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="hzK-Sp-Mt7">
+                                <rect key="frame" x="33" y="350" width="676" height="638"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">
+8.	GLOSARIO
+
+Browser:  Software que permite la navegación en internet.
+
+Celda:  Área geográfica de forma poligonal o circular que es cubierta por una BTS, usando una antena o un arreglo de éstas.
+
+Elemento Activo:  Aquel que requiere energía eléctrica para funcionar.
+
+Elemento Pasivo: Aquel que puede funcionar sin necesidad de usar energía eléctrica.
+
+Gama de un dispositivo:  Se refiere al segmento comercial al cual pertenece, así denominamos gama baja a aquellos que son de bajo costo y funcionalidades limitadas; y gama alta a los smartphones y tablets de costo alto y gran cantidad de funcionalidades.
+
+Framework:  También denominado Runtime Software, se instala sobre el sistema operativo de un dispositivo móvil y permite que se ejecuten aplicaciones diseñadas para éste.  Los ejemplos más comunes son Java ME y .Net Framework.
+
+Handoff - Handover:  Proceso por el cual una transmisión celular pasa de una celda de la cual está saliendo y es recibido la celda adyacente.
+
+IDE:  Siglas en inglés de Integrated Development Environment o Entorno de Desarrollo integrado.  Comprende las herramientas necesarias para la generación de código en un lenguaje de programación y el entorno de prueba para la depuración y simulación de los dispositivos móviles reales
+
+Modulación:  Proceso por el cual una señal que contiene información es alterada en valores como frecuencia, amplitud, fase, entre otros, para ser transmitida con mayor facilidad.
+
+PSTN: Public Switched Telephonic Network, Red Telefónica Pública conmutada o telefonía convencional cableada.
+
+Screen: Pantalla del dispositivo móvil, también llamada Display.
+
+Stylus:  Elemento para escritura en forma de lapicero delgado pero sin tinta, con una punta fina plástica, usado para escribir en pantallas táctiles sin riesgo de rayarlas y con el grosor suficiente para ser detectado por el software del dispositivo móvil.
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <imageView autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="top" image="stockvault-book-126936.png" id="xIl-Jc-gCx">
+                                <rect key="frame" x="110" y="58" width="501" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" barStyle="black" id="JzG-fY-ipr">
+                                <rect key="frame" x="0.0" y="-6" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Glosario" id="r16-fI-vbc">
+                                        <barButtonItem key="rightBarButtonItem" title="Menú" id="YRo-xe-o7c">
+                                            <connections>
+                                                <segue destination="0F1-LD-hxc" kind="custom" customClass="DismissSegue" id="BUP-jn-q8a"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7yd-xc-aFf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3191" y="917"/>
+        </scene>
+        <!--Sistemas operativos-->
+        <scene sceneID="8PT-2N-q7u">
+            <objects>
+                <viewController title="Sistemas operativos" id="tue-zi-tpH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Emq-gQ-Xf5">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="9J3-CW-aTE">
+                                <rect key="frame" x="33" y="350" width="676" height="638"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">
+4.	SISTEMAS OPERATIVOS
+
+El hardware del dispositivo móvil es controlado por un sistema operativo, que comunica las interfaces físicas con el usuario, permite realizar las tareas básicas desde la llamada, manejo de contactos, hasta las tareas avanzadas como ejecución de programas aplicativos en el caso de tablets y smartphones.
+
+Existen dos generales, propietarios del fabricante de hardware y sistemas operativos que corren en plataformas de distintos fabricantes.  A continuación hablaremos de los más difundidos, sin embargo existen muchos más, especialmente en la rama de sistemas propietarios.
+
+ 
+4.1.	SYMBIAN
+
+Durante muchos años se constituyó en uno de los más populares del mercado, debido a la gran penetración de los dispositivos Nokia, fabricante dueño de este sistema operativo.  Posee también un runtime de Java para correr aplicaciones hechas para dicho lenguaje.
+
+Nokia tomó posteriormente la decisión comercial de no seguirlo incluyendo en sus dispositivos de gama alta (smartphones) y lo renombró como Belle, Manteniendo las versiones de Qt y Series 40 para los dispositivos de bajo precio.
+
+Los Smartphone de Nokia tendrán para sus versiones posteriores la implementación de Windows Phone como sistema operativo.
+
+4.2.	WINDOWS PHONE
+
+Sistema operativo Microsoft, diseñado para uso en smartphones, sus primeras versiones se conocieron como Windows Mobile.  Permite el uso de la metodología .Net para el desarrollo de aplicaciones y cuenta con facilidades nativas para conectarse con el software de servidor y escritorio de Microsoft.
+
+Como otros productos de esta marca requiere un alto consumo de recursos, por lo cual no está orientado a dispositivos de bajo precio.
+
+4.3.	IOS
+
+Perteneciente a la empresa Apple, ganó gran difusión debido al éxito comercial de los modelos iPhone e iPad, actualmente siendo esta segunda la referencia más vendida en el mercado.  Junto con Palm Web OS y RIM son fabricantes que actualmente conservan tanto el desarrollo del hardware como del sistema operativo simultáneamente.
+
+Una de sus grandes ventajas es la amigabilidad con el usuario y la ventaja para los desarrolladores que no tiene tanta diversidad de hardware y tamaños de screen, lo que facilita ampliamente las fases de desarrollo e implementación.
+
+La filosofía de iOS es centrada en la experiencia del usuario y altamente restrictiva, de modo que se debe garantizar que el usuario encuentre en la aplicación los tipos de gestos que son comunes para el sistema operativo, al mismo tiempo limita al desarrollador el acceso a los recursos de almacenamiento.
+
+Los dispositivos se venden en una configuración cerrada, que permite solamente instalar aplicaciones descargadas desde el Apple App Store.
+
+ 
+4.4.	ANDROID
+
+Sistema operativo de código abierto, desarrollado por la empresa Google, cuenta con una gran gama de dispositivos soportados de diversos fabricantes, tanto en los segmentos de smartphones como tablets.
+
+Se ha difundido ampliamente y cuenta con una gran comunidad de desarrolladores, sin embargo es necesario tener en cuenta que precisamente debido a la gran variedad de dispositivos soportados es necesario ser cuidadoso al planear el desarrollo para garantizar que la aplicación será vista de forma similar en todos los dispositivos esperados.
+
+La distribución de aplicaciones se hace por medio del Android Market, para lo cual se requiere ser un desarrollador registrado.   
+
+Existe hardware que actualmente corre este sistema operativo que no ha sido oficialmente homologado por Google, por lo cual no se les permite descargar software del Android Market, esto genera que estos dispositivos tengan sus propias tiendas de aplicaciones no homologadas.
+
+4.5.	BLACKBERRY OS
+
+Sistema operativo propietario para los dispositivos del fabricante RIM (Research In Motion), se diferencia de otros sistemas por estar basado en la red de comunicaciones propia de RIM, que permite servicios de mensajería personales separados de los suministrados por el proveedor celular.
+
+Como otros fabricantes propietarios cuenta con su propia tienda de aplicaciones llamada Blackberry App World.  Es necesario ser un desarrollador registrado para acceder a la publicación de aplicaciones.  Permite correr tanto aplicaciones propietarias como en Java, html 5, Adobe Air y migrar aplicaciones Android.
+
+4.6.	PARA SABER MÁS
+
+RIM, Platform Choice https://bdsc.webapps.blackberry.com/devzone/platforms consultado 2012-01-22
+
+Apple, IOS https://www.apple.com/ipad/ios/ consultado 2012-01-22
+
+Nokia, Developer http://www.developer.nokia.com/ consultado 2012-01-22
+
+Microsoft, Windows Phone http://www.microsoft.com/windowsphone/en-US/features/default.aspx consultado 2012-01-22
+
+Android, Discover Android http://www.android.com/about/ consultado 2012-01-22
+
+Tech Yuva, The future of Mobile OS, http://www.techyuva.com/the-future-of-mobile-os/ consultado 2012-01-22
+
+
+Amit Bhawani, Types of Mobile OS (Operating Systems) in Latest Smart Phones http://www.amitbhawani.com/blog/mobile-os-smart-phones-types/ consultado 2012-01-22
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <imageView autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="top" image="Mobile_OS3.png" id="KHn-lW-a2r">
+                                <rect key="frame" x="110" y="58" width="501" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" barStyle="black" id="WkY-Wl-gt9">
+                                <rect key="frame" x="0.0" y="-6" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Sistemas operativos" id="wfk-Y4-o3C">
+                                        <barButtonItem key="rightBarButtonItem" title="Menú" id="M8I-BE-Uwb">
+                                            <connections>
+                                                <segue destination="tue-zi-tpH" kind="custom" customClass="DismissSegue" id="SC7-qO-ngn"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bUG-0x-N3K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3319" y="-1802"/>
+        </scene>
+        <!--Información de la aplicación-->
+        <scene sceneID="h2c-xN-19c">
+            <objects>
+                <viewController title="Información de la aplicación" id="4Rs-3I-aZq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PGn-Vu-aoY">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="R3I-Sb-tiT">
+                                <rect key="frame" x="33" y="350" width="676" height="638"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">
+9.	INFORMACIÓN DE LA APLICACIÓN
+
+Esta aplicación se desarrolló para el SENA – Servicio Nacional de Aprendizaje como producto Técnico – Pedagógico para el SSEMI.
+
+Este material educativo se desarrolló para la competencia “Definir los requisitos y las especificaciones técnicas de los equipos móviles objetivos para construir el sistema de información de acuerdo con las necesidades del cliente” de la Especialización Tecnológica en Desarrollo de Aplicaciones para Dispositivos Móviles.
+
+Todos los derechos de autor de los logos, imágenes y marcas registradas usadas en este programa pertenecen a sus propietarios.
+
+El logo SENA es propiedad del Servicio Nacional de Aprendizaje – Colombia.  La propiedad intelectual del contenido textual de esta aplicación es de su autora Isabel C Yepes Ocampo.
+
+Este producto es para uso educativo exclusivamente.
+
+Medellín - Colombia - 2012
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <imageView autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="top" image="Logo_sena2.png" id="47d-hq-7gO">
+                                <rect key="frame" x="110" y="58" width="501" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" barStyle="black" id="AJm-ZU-bzS">
+                                <rect key="frame" x="0.0" y="-6" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Información de la aplicación" id="v5R-bi-Sxt">
+                                        <barButtonItem key="rightBarButtonItem" title="Menú" id="mWU-VV-Azm">
+                                            <connections>
+                                                <segue destination="4Rs-3I-aZq" kind="custom" customClass="DismissSegue" id="cK1-UH-i6U"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ANF-h8-H65" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="193" y="-1460"/>
+        </scene>
+        <!--Respuestas-->
+        <scene sceneID="6zU-gF-rrT">
+            <objects>
+                <viewController title="Respuestas" id="N1v-Kg-ye0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fte-kh-y3j">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="d80-l7-dqg">
+                                <rect key="frame" x="33" y="350" width="676" height="638"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">RESPUESTAS
+
+1.	La necesidad del cliente, el tipo de aplicación que se desea desarrollar, a partir de allí elegir el sistema operativo y la plataforma de hardware apropiados para la necesidad del cliente
+
+2.	Dada la falta de uniformidad en el mercado, la masificación de una aplicación en más de una plataforma de hardware o software puede que requiera modificaciones de código.
+
+3.	Dispositivos móviles, antena de transmisión, BTS, MSTO, Central Tándem, Cabecera de internet
+
+4.	Etapas de RF, interfaces de entrada y salida, audio y procesamiento.
+
+5.	Al variarse el canal de transmisión de la conversación por medio de un código aleatorio en el tiempo, se torna poco probable que un dispositivo pueda imitar la misma secuencia y capturar los datos de la llamada.
+
+6.	La penetración en el mercado si se trata de una aplicación de consumo masivo, la compatibilidad con otras aplicaciones corporativas en caso de que aplique, la posibilidad de uso de frameworks o desarrollo para sistemas propietarios
+
+7.	Según el sistema operativo elegido y el soporte de frameworks de la plataforma.
+
+8.	Una terminal móvil
+
+9.	El browser soportado por los dispositivos objetivo y los lenguajes de script que este pueda soportar.  El tamaño del screen.
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <imageView autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="top" image="stockvault-mobile-phone120897.png" id="uU6-jb-u5e">
+                                <rect key="frame" x="110" y="58" width="501" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" barStyle="black" id="OVa-sF-IBC">
+                                <rect key="frame" x="0.0" y="-6" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Respuestas" id="QpS-lF-oU4">
+                                        <barButtonItem key="rightBarButtonItem" title="Preguntas" id="gDN-kw-0U3">
+                                            <connections>
+                                                <segue destination="N1v-Kg-ye0" kind="custom" customClass="DismissSegue" id="HEs-YU-RYa"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1ge-O4-LqN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-679" y="2085"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Default-Portrait.png" width="768" height="1004"/>
+        <image name="IDEs2.png" width="384" height="240"/>
+        <image name="Logo_sena2.png" width="240" height="240"/>
+        <image name="Mobile_OS3.png" width="289" height="240"/>
+        <image name="cellularnw.png" width="410" height="275"/>
+        <image name="freqs.jpg" width="547" height="212"/>
+        <image name="infografia-screen.png" width="485" height="240"/>
+        <image name="logo+.png" width="249" height="250"/>
+        <image name="mobile-devices.png" width="426" height="320"/>
+        <image name="stockvault-book-126936.png" width="360" height="221"/>
+        <image name="stockvault-mobile-phone120897.png" width="360" height="240"/>
+        <image name="stockvault-note-paper128635.png" width="348" height="240"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="RgX-Pn-aLE"/>
+        <segue reference="sU4-I9-cPY"/>
+        <segue reference="Xdh-d4-bMh"/>
+        <segue reference="mxn-ES-4sC"/>
+        <segue reference="mEw-X8-KKp"/>
+        <segue reference="tPc-H1-al6"/>
+        <segue reference="Ksm-rY-1bM"/>
+        <segue reference="gC0-hB-Ufj"/>
+        <segue reference="euV-Gc-SFL"/>
+        <segue reference="DbD-rQ-dSB"/>
+    </inferredMetricsTieBreakers>
+</document>

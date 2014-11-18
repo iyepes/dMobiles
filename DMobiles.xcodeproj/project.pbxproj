@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80A1D4D14F31037004F2AF1 /* cellularnw.png in Resources */ = {isa = PBXBuildFile; fileRef = F80A1D4C14F31037004F2AF1 /* cellularnw.png */; };
+		F80A1D4F14F31D3C004F2AF1 /* mobile-devices.png in Resources */ = {isa = PBXBuildFile; fileRef = F80A1D4E14F31D3C004F2AF1 /* mobile-devices.png */; };
+		F835A5C814F41792002AE1E1 /* stockvault-book-126936.png in Resources */ = {isa = PBXBuildFile; fileRef = F835A5C714F41792002AE1E1 /* stockvault-book-126936.png */; };
+		F835A5CA14F4195B002AE1E1 /* stockvault-note-paper128635.png in Resources */ = {isa = PBXBuildFile; fileRef = F835A5C914F4195B002AE1E1 /* stockvault-note-paper128635.png */; };
+		F835A5D014F41ECE002AE1E1 /* Mobile_OS3.png in Resources */ = {isa = PBXBuildFile; fileRef = F835A5CF14F41ECE002AE1E1 /* Mobile_OS3.png */; };
+		F835A5D214F42311002AE1E1 /* freqs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F835A5D114F42311002AE1E1 /* freqs.jpg */; };
+		F835A5D414F425B4002AE1E1 /* infografia-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = F835A5D314F425B4002AE1E1 /* infografia-screen.png */; };
+		F835A5D614F42B67002AE1E1 /* IDEs2.png in Resources */ = {isa = PBXBuildFile; fileRef = F835A5D514F42B67002AE1E1 /* IDEs2.png */; };
+		F83EBCD214F46D8D00C549D4 /* logo+.png in Resources */ = {isa = PBXBuildFile; fileRef = F83EBCD114F46D8D00C549D4 /* logo+.png */; };
+		F83EBCD714F4763500C549D4 /* Logo_sena2.png in Resources */ = {isa = PBXBuildFile; fileRef = F83EBCD614F4763500C549D4 /* Logo_sena2.png */; };
+		F8406BE014F58CA800DF0CC7 /* stockvault-mobile-phone120897.png in Resources */ = {isa = PBXBuildFile; fileRef = F8406BDF14F58CA800DF0CC7 /* stockvault-mobile-phone120897.png */; };
+		F85AA37714F2F0470030CEC6 /* cellular-network.png in Resources */ = {isa = PBXBuildFile; fileRef = F85AA37614F2F0470030CEC6 /* cellular-network.png */; };
+		F866F9791A1B02AC00185A34 /* DismissSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = F866F9781A1B02AC00185A34 /* DismissSegue.m */; };
+		F8A41F8A14EC62BE009C9D61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A41F8914EC62BE009C9D61 /* UIKit.framework */; };
+		F8A41F8C14EC62BE009C9D61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A41F8B14EC62BE009C9D61 /* Foundation.framework */; };
+		F8A41F8E14EC62BE009C9D61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A41F8D14EC62BE009C9D61 /* CoreGraphics.framework */; };
+		F8A41F9414EC62BE009C9D61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8A41F9214EC62BE009C9D61 /* InfoPlist.strings */; };
+		F8A41F9614EC62BE009C9D61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A41F9514EC62BE009C9D61 /* main.m */; };
+		F8A41F9A14EC62BE009C9D61 /* EsteFueAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A41F9914EC62BE009C9D61 /* EsteFueAppDelegate.m */; };
+		F8A41F9D14EC62BE009C9D61 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A41F9B14EC62BE009C9D61 /* MainStoryboard.storyboard */; };
+		F8A41FA014EC62BE009C9D61 /* EsteFueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A41F9F14EC62BE009C9D61 /* EsteFueViewController.m */; };
+		F8A41FA714EC687E009C9D61 /* icono-app.png in Resources */ = {isa = PBXBuildFile; fileRef = F8A41FA614EC687E009C9D61 /* icono-app.png */; };
+		F8A41FA914EC6919009C9D61 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F8A41FA814EC6919009C9D61 /* Default-Portrait~ipad.png */; };
+		F8A41FAB14EC696F009C9D61 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F8A41FAA14EC696F009C9D61 /* Default-Landscape~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F80A1D4C14F31037004F2AF1 /* cellularnw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cellularnw.png; path = EsteFue/cellularnw.png; sourceTree = "<group>"; };
+		F80A1D4E14F31D3C004F2AF1 /* mobile-devices.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mobile-devices.png"; sourceTree = "<group>"; };
+		F835A5C714F41792002AE1E1 /* stockvault-book-126936.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stockvault-book-126936.png"; sourceTree = "<group>"; };
+		F835A5C914F4195B002AE1E1 /* stockvault-note-paper128635.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stockvault-note-paper128635.png"; sourceTree = "<group>"; };
+		F835A5CF14F41ECE002AE1E1 /* Mobile_OS3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mobile_OS3.png; sourceTree = "<group>"; };
+		F835A5D114F42311002AE1E1 /* freqs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = freqs.jpg; sourceTree = "<group>"; };
+		F835A5D314F425B4002AE1E1 /* infografia-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infografia-screen.png"; sourceTree = "<group>"; };
+		F835A5D514F42B67002AE1E1 /* IDEs2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IDEs2.png; sourceTree = "<group>"; };
+		F83EBCD114F46D8D00C549D4 /* logo+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo+.png"; sourceTree = "<group>"; };
+		F83EBCD614F4763500C549D4 /* Logo_sena2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_sena2.png; sourceTree = "<group>"; };
+		F8406BDF14F58CA800DF0CC7 /* stockvault-mobile-phone120897.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stockvault-mobile-phone120897.png"; sourceTree = "<group>"; };
+		F85AA37614F2F0470030CEC6 /* cellular-network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellular-network.png"; sourceTree = "<group>"; };
+		F866F9771A1B02AC00185A34 /* DismissSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissSegue.h; sourceTree = "<group>"; };
+		F866F9781A1B02AC00185A34 /* DismissSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissSegue.m; sourceTree = "<group>"; };
+		F8A41F8514EC62BE009C9D61 /* DMobiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMobiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A41F8914EC62BE009C9D61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8A41F8B14EC62BE009C9D61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8A41F8D14EC62BE009C9D61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F8A41F9114EC62BE009C9D61 /* DMobiles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DMobiles-Info.plist"; sourceTree = "<group>"; };
+		F8A41F9314EC62BE009C9D61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8A41F9514EC62BE009C9D61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8A41F9714EC62BE009C9D61 /* DMobiles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DMobiles-Prefix.pch"; sourceTree = "<group>"; };
+		F8A41F9814EC62BE009C9D61 /* EsteFueAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EsteFueAppDelegate.h; sourceTree = "<group>"; };
+		F8A41F9914EC62BE009C9D61 /* EsteFueAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EsteFueAppDelegate.m; sourceTree = "<group>"; };
+		F8A41F9C14EC62BE009C9D61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F8A41F9E14EC62BE009C9D61 /* EsteFueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EsteFueViewController.h; sourceTree = "<group>"; };
+		F8A41F9F14EC62BE009C9D61 /* EsteFueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EsteFueViewController.m; sourceTree = "<group>"; };
+		F8A41FA614EC687E009C9D61 /* icono-app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icono-app.png"; sourceTree = "<group>"; };
+		F8A41FA814EC6919009C9D61 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		F8A41FAA14EC696F009C9D61 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8A41F8214EC62BE009C9D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A41F8A14EC62BE009C9D61 /* UIKit.framework in Frameworks */,
+				F8A41F8C14EC62BE009C9D61 /* Foundation.framework in Frameworks */,
+				F8A41F8E14EC62BE009C9D61 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8A41F7A14EC62BE009C9D61 = {
+			isa = PBXGroup;
+			children = (
+				F8406BDF14F58CA800DF0CC7 /* stockvault-mobile-phone120897.png */,
+				F83EBCD614F4763500C549D4 /* Logo_sena2.png */,
+				F835A5D114F42311002AE1E1 /* freqs.jpg */,
+				F835A5D514F42B67002AE1E1 /* IDEs2.png */,
+				F835A5D314F425B4002AE1E1 /* infografia-screen.png */,
+				F835A5CF14F41ECE002AE1E1 /* Mobile_OS3.png */,
+				F835A5C914F4195B002AE1E1 /* stockvault-note-paper128635.png */,
+				F835A5C714F41792002AE1E1 /* stockvault-book-126936.png */,
+				F80A1D4E14F31D3C004F2AF1 /* mobile-devices.png */,
+				F83EBCD114F46D8D00C549D4 /* logo+.png */,
+				F80A1D4C14F31037004F2AF1 /* cellularnw.png */,
+				F85AA37614F2F0470030CEC6 /* cellular-network.png */,
+				F8A41FAA14EC696F009C9D61 /* Default-Landscape~ipad.png */,
+				F8A41FA814EC6919009C9D61 /* Default-Portrait~ipad.png */,
+				F8A41FA614EC687E009C9D61 /* icono-app.png */,
+				F8A41F8F14EC62BE009C9D61 /* EsteFue */,
+				F8A41F8814EC62BE009C9D61 /* Frameworks */,
+				F8A41F8614EC62BE009C9D61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8A41F8614EC62BE009C9D61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8A41F8514EC62BE009C9D61 /* DMobiles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8A41F8814EC62BE009C9D61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8A41F8914EC62BE009C9D61 /* UIKit.framework */,
+				F8A41F8B14EC62BE009C9D61 /* Foundation.framework */,
+				F8A41F8D14EC62BE009C9D61 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8A41F8F14EC62BE009C9D61 /* EsteFue */ = {
+			isa = PBXGroup;
+			children = (
+				F8A41F9814EC62BE009C9D61 /* EsteFueAppDelegate.h */,
+				F8A41F9914EC62BE009C9D61 /* EsteFueAppDelegate.m */,
+				F8A41F9B14EC62BE009C9D61 /* MainStoryboard.storyboard */,
+				F8A41F9E14EC62BE009C9D61 /* EsteFueViewController.h */,
+				F8A41F9F14EC62BE009C9D61 /* EsteFueViewController.m */,
+				F866F9771A1B02AC00185A34 /* DismissSegue.h */,
+				F866F9781A1B02AC00185A34 /* DismissSegue.m */,
+				F8A41F9014EC62BE009C9D61 /* Supporting Files */,
+			);
+			path = EsteFue;
+			sourceTree = "<group>";
+		};
+		F8A41F9014EC62BE009C9D61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8A41F9114EC62BE009C9D61 /* DMobiles-Info.plist */,
+				F8A41F9214EC62BE009C9D61 /* InfoPlist.strings */,
+				F8A41F9514EC62BE009C9D61 /* main.m */,
+				F8A41F9714EC62BE009C9D61 /* DMobiles-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8A41F8414EC62BE009C9D61 /* DMobiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8A41FA314EC62BE009C9D61 /* Build configuration list for PBXNativeTarget "DMobiles" */;
+			buildPhases = (
+				F8A41F8114EC62BE009C9D61 /* Sources */,
+				F8A41F8214EC62BE009C9D61 /* Frameworks */,
+				F8A41F8314EC62BE009C9D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMobiles;
+			productName = EsteFue;
+			productReference = F8A41F8514EC62BE009C9D61 /* DMobiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8A41F7C14EC62BE009C9D61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				TargetAttributes = {
+					F8A41F8414EC62BE009C9D61 = {
+						DevelopmentTeam = YH75XCD6X7;
+					};
+				};
+			};
+			buildConfigurationList = F8A41F7F14EC62BE009C9D61 /* Build configuration list for PBXProject "DMobiles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8A41F7A14EC62BE009C9D61;
+			productRefGroup = F8A41F8614EC62BE009C9D61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8A41F8414EC62BE009C9D61 /* DMobiles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8A41F8314EC62BE009C9D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A41F9414EC62BE009C9D61 /* InfoPlist.strings in Resources */,
+				F8A41F9D14EC62BE009C9D61 /* MainStoryboard.storyboard in Resources */,
+				F8A41FA714EC687E009C9D61 /* icono-app.png in Resources */,
+				F8A41FA914EC6919009C9D61 /* Default-Portrait~ipad.png in Resources */,
+				F8A41FAB14EC696F009C9D61 /* Default-Landscape~ipad.png in Resources */,
+				F85AA37714F2F0470030CEC6 /* cellular-network.png in Resources */,
+				F80A1D4D14F31037004F2AF1 /* cellularnw.png in Resources */,
+				F80A1D4F14F31D3C004F2AF1 /* mobile-devices.png in Resources */,
+				F835A5C814F41792002AE1E1 /* stockvault-book-126936.png in Resources */,
+				F835A5CA14F4195B002AE1E1 /* stockvault-note-paper128635.png in Resources */,
+				F835A5D014F41ECE002AE1E1 /* Mobile_OS3.png in Resources */,
+				F835A5D214F42311002AE1E1 /* freqs.jpg in Resources */,
+				F835A5D414F425B4002AE1E1 /* infografia-screen.png in Resources */,
+				F835A5D614F42B67002AE1E1 /* IDEs2.png in Resources */,
+				F83EBCD214F46D8D00C549D4 /* logo+.png in Resources */,
+				F83EBCD714F4763500C549D4 /* Logo_sena2.png in Resources */,
+				F8406BE014F58CA800DF0CC7 /* stockvault-mobile-phone120897.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8A41F8114EC62BE009C9D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A41F9614EC62BE009C9D61 /* main.m in Sources */,
+				F866F9791A1B02AC00185A34 /* DismissSegue.m in Sources */,
+				F8A41F9A14EC62BE009C9D61 /* EsteFueAppDelegate.m in Sources */,
+				F8A41FA014EC62BE009C9D61 /* EsteFueViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8A41F9214EC62BE009C9D61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8A41F9314EC62BE009C9D61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8A41F9B14EC62BE009C9D61 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8A41F9C14EC62BE009C9D61 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8A41FA114EC62BE009C9D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F8A41FA214EC62BE009C9D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8A41FA414EC62BE009C9D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EsteFue/DMobiles-Prefix.pch";
+				INFOPLIST_FILE = "EsteFue/DMobiles-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = DMobiles;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8A41FA514EC62BE009C9D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EsteFue/DMobiles-Prefix.pch";
+				INFOPLIST_FILE = "EsteFue/DMobiles-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = DMobiles;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8A41F7F14EC62BE009C9D61 /* Build configuration list for PBXProject "DMobiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A41FA114EC62BE009C9D61 /* Debug */,
+				F8A41FA214EC62BE009C9D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8A41FA314EC62BE009C9D61 /* Build configuration list for PBXNativeTarget "DMobiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A41FA414EC62BE009C9D61 /* Debug */,
+				F8A41FA514EC62BE009C9D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8A41F7C14EC62BE009C9D61 /* Project object */;
+}
