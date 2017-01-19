@@ -5,4 +5,4 @@ This apps shows  storyboard use, presenting and dismissing modal views. It was d
 
 ## Demo
 
-![BARTNap Demo](https://dl.dropboxusercontent.com/u/15652960/dMobiles.gif)
+![dMobiles Demo](https://github.com/iyepes/dMobiles/blob/master/dMobiles.gif)
